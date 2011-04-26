@@ -4,8 +4,7 @@ active proctype p(){
 	if
 		:: a = true;
 		:: b = true;
-// Uncomment the following line for 2.2 b)
-//		:: a = false;
+		:: a = false;
 	fi;
 	assert(a+b == true)
 }
